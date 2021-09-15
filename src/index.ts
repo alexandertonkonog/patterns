@@ -5,6 +5,7 @@ import Prototype from './prototype';
 import Singletone from './singletone';
 import Adapter from './adapter';
 import Bridge from './bridge';
+import Composite from './composite';
 
 const main = (): void => {
     const lightWeightInstance = new LightWeight();
@@ -14,6 +15,7 @@ const main = (): void => {
     const singletone = new Singletone();
     const adapter = new Adapter();
     const bridge = new Bridge();
+    const composite = new Composite();
 }
 
 main();
